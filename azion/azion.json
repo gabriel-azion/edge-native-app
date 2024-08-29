@@ -1,0 +1,43 @@
+{
+  "name": "harmonious-mollyoshea",
+  "bucket": "",
+  "preset": "javascript",
+  "mode": "compute",
+  "env": "production",
+  "prefix": "20240828151723",
+  "not-first-run": true,
+  "function": {
+    "id": 28652,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 27430,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 173752
+  },
+  "application": {
+    "id": 1724866256,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1724862202,
+    "name": "harmonious-mollyoshea",
+    "domain_name": "l5mqy8d056.map.azionedge.net",
+    "url": "https://l5mqy8d056.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 292384,
+        "name": "Main_Rule",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
